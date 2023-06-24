@@ -5,7 +5,8 @@ import java.util.List;
     public class Main {
         public static List<Integer> fibonacciGenap(int n) {
             List<Integer> sequence = new ArrayList<>();
-            int a = 0, b = 1;
+            int a = 0;
+            int b = 1;
             while (b <= n) {
                 if (b % 2 == 0) {
                     sequence.add(b);
